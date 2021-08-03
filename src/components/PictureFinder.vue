@@ -20,6 +20,7 @@ export default {
       state,
       getPicture(){
         picturesService.getPicture(state.query)
+        state.query = '' //Resets the form
       }
     }
   },  
