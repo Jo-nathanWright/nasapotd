@@ -1,7 +1,7 @@
 <template>
 <div>
   <form @submit.prevent="getPicture">
-    <input v-model="state.query" type="text" name="" id="" placeholder="Year-Month-Day" />
+    <input v-model="state.query" type="date" name="" id="" />
     <button>Search</button>
   </form>
 </div>
